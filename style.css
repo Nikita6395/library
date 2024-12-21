@@ -1,0 +1,65 @@
+/* Общие стили */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    font-size: 16px;
+}
+
+/* Разметка для .section-main */
+.section-main {
+    background-color: #556b2f;
+    padding: 40px 0 120px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Логотип */
+.section-main-logo {
+    width: 160px;
+}
+
+/* Заголовок */
+.section-main-title {
+    margin: 40px 0 20px;
+    color: #fff;
+    font-family: 'Lora', serif;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+/* Подзаголовок */
+.section-main-subtitle {
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 22px;
+}
+
+/* Кнопка */
+.section-main-button {
+    background-color: #8fbc8f;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    cursor: pointer;
+}
+
+.section-main-button:hover {
+    background-color: #7a9c7b;
+}
+
+/* Вторичная секция (Информация о библиотеке) */
+.second-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+/* Стилізація карток книг, футера и формы аналогично выше */
